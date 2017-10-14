@@ -1,0 +1,60 @@
+.cover{
+    position: fixed;
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.cover.black{
+    background-color: rgba(0,0,0,.6);
+}
+.cover.blue{
+    background-color: rgba(5, 31, 60, 0.6);
+}
+.cover.green{
+    background-color: rgba(3, 28, 7, 0.6);
+}
+.cover.orange{
+    background-color: rgba(37, 28, 5, 0.6);
+}
+.cover.red{
+    background-color: rgba(35, 3, 2, 0.66);
+}
+
+.blur{
+  opacity:0;
+}
+
+.main .content{
+    position: relative;
+    z-index: 4;
+}
+.main .motto{
+    min-height: 140px;
+}
+.main .motto, .main .subscribe .info-text{
+    font-size: 22px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    
+}
+.main .subscribe .info-text{
+    font-size: 18px;
+}
+
+.footer{
+    position: relative;
+    right: 0px;
+    width: 100%;
+    color: #000;
+    z-index: 4;
+    text-align: center;
+}
+
+.footer .heart{
+    color: #FF3B30;
+}
